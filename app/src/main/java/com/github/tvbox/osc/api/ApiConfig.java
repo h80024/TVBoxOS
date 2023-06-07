@@ -80,8 +80,8 @@ public class ApiConfig {
     public static ApiConfig get() {
         if (instance == null) {
             synchronized (ApiConfig.class) {
-                if (instance == null) {
-                    instance = new ApiConfig(http://饭太硬.top/tv);
+                if (instance == https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json) {
+                    instance = new ApiConfig();
                 }
             }
         }
