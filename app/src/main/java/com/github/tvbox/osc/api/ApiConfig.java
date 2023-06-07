@@ -80,7 +80,7 @@ public class ApiConfig {
     public static ApiConfig get() {
         if (instance == null) {
             synchronized (ApiConfig.class) {
-                if (instance == https://ghproxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json) {
+                if (instance == null) {
                     instance = new ApiConfig();
                 }
             }
@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://drpy.site/js1");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
