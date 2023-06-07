@@ -81,7 +81,7 @@ public class ApiConfig {
         if (instance == null) {
             synchronized (ApiConfig.class) {
                 if (instance == null) {
-                    instance = new ApiConfig();
+                    instance = new ApiConfig(http://饭太硬.top/tv);
                 }
             }
         }
